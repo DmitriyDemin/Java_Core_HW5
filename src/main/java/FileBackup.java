@@ -3,7 +3,7 @@ import java.nio.file.*;
 
 public class FileBackup {
 
-    public static void backupFiles(String sourceDir) throws IOException {
+    public void backupFiles(String sourceDir) throws IOException {
         Path backupDir = Paths.get(sourceDir, "backup");
 
         // Создаем папку backup, если её нет
