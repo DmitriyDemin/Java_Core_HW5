@@ -114,7 +114,10 @@ public class Main {
 ````
 В результате выполнения кода  создается файл с 9 значениями, размеров три байта
 ![tic-tac-3byte](src/main/resources/tic-tac-3byte.png)
-Данная промежуточная аттестация оценивается по системе "зачет" / "не зачет".
-"Зачет" - скриншот запущенного и функционирующего приложения dvwa-docker;
-скриншот успешного цикла CI/CD для проекта dvwa-docker
 
+### 3. Запуск приложения dvwa-docker
+Пример команды для запуска:
+````shell
+docker run --rm -it -p 80:80 vulnerables/web-dvwa
+````
+![docker](src/main/resources/docker.png)
