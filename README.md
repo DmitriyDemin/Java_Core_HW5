@@ -120,4 +120,6 @@ public class Main {
 ````shell
 docker run --rm -it -p 80:80 vulnerables/web-dvwa
 ````
+Подтверждение запущенного контейнера
+
 ![docker](src/main/resources/docker.png)
